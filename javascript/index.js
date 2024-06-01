@@ -109,3 +109,15 @@ console.log('bool2_num:',bool2_num);
 console.log('nul_num:',nul_num);
 console.log('undef_num:',undef_num);
 console.log('nan_num:',nan_num);
+
+//Multidimensional Matrix addition//
+
+let mat1 = [[2, 5, 3], [6, 8, 11]];
+let mat2 = [[4, 1, 7], [9, 7, 2]];
+let mat3 = [[], []];
+for (let i = 0; i < mat1.length; i++) {
+for (let j = 0; j < mat1[i].length; j++) {
+mat3[i][j] = mat1[i][j] + mat2[i][j];
+ }
+}
+console.log(mat3);
