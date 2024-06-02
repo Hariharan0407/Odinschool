@@ -97,16 +97,16 @@ let nul_bool = new Boolean(nul).valueOf();
 let undef_bool = new Boolean(undef).valueOf();
 let nan_bool = new Boolean(nan).valueOf();
 
-console.log('str1_bool:',str1_bool);
-console.log('str2_bool:',str2_bool);
-console.log('str3_bool:',str3_bool);
-console.log('num1_bool:',num1_bool);
-console.log('num2_bool:',num2_bool);
-console.log('num3_bool:',num3_bool);
-console.log('num4_bool:',num4_bool);
-console.log('nul_bool:',nul_bool);
-console.log('undef_bool:',undef_bool);
-console.log('nan_bool:',nan_bool);
+console.log(`${str1} to bool:`,str1_bool);
+console.log(`${str2} to bool:`,str2_bool);
+console.log(`${str3} to bool:`,str3_bool);
+console.log(`${num1} to bool:`,num1_bool);
+console.log(`${num2} to bool:`,num2_bool);
+console.log(`${num3} to bool:`,num3_bool);
+console.log(`${num4} to bool:`,num4_bool);
+console.log(`${nul} to bool:`,nul_bool);
+console.log(`${undef} to bool:`,undef_bool);
+console.log(`${nan} to bool:`,nan_bool);
 
 //Number conversions//
 console.log('Converting other data types to Number');
@@ -120,14 +120,14 @@ let nul_num = new Number(nul).valueOf();
 let undef_num = new Number(undef).valueOf();
 let nan_num = new Number(nan).valueOf();
 
-console.log('str1_num:',str1_num);
-console.log('str2_num:',str2_num);
-console.log('str4_num:',str4_num);
-console.log('bool1_num:',bool1_num);
-console.log('bool2_num:',bool2_num);
-console.log('nul_num:',nul_num);
-console.log('undef_num:',undef_num);
-console.log('nan_num:',nan_num);
+console.log(`${str1} to num:`,str1_num);
+console.log(`${str2} to num:`,str2_num);
+console.log(`${str4} to num:`,str4_num);
+console.log(`${bool1} to num:`,bool1_num);
+console.log(`${bool2} to num:`,bool2_num);
+console.log(`${nul} to num:`,nul_num);
+console.log(`${undef} to num:`,undef_num);
+console.log(`${nan} to num:`,nan_num);
 
 //Multidimensional Matrix addition//
 
