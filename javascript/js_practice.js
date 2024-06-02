@@ -1,3 +1,21 @@
+for (let i = 0; i<5; i++){
+    console.log(i);
+}
+
+for (let i = 0; i<5; ++i){
+    console.log(i);
+}
+
+let i =0;
+console.log('i=',i++);
+console.log(i);
+
+let j =0;
+console.log('j=',++j);
+console.log(j);
+
+
+
 //Assignment operators//
 
 let x= 3;
@@ -9,13 +27,13 @@ console.log(3<='5');
 console.log(3<=5);
 
 //Bitwise operators//
-console.log(1 | 2);
-console.log(1 & 2);
+console.log('Bitwise 1 OR 2:',1 | 2);
+console.log('Bitwise 1 AND 2:',1 & 2);
 
-//Bitwise Assignment operators//
+
 let a = 2;
 let b = 5;
-console.log(a,b);
+console.log(`a,b: ${a},${b}`);
 // a &&= b is same as a& (a=b) if a is truthy value then the value of b will be assigned to a
 // a ||= b is same as a| (a=b) if a is falsy value then the value of b will be assigned to a
 //Logical AND assignment operator
@@ -34,6 +52,7 @@ console.log(a);
 a = undefined;
 a ??= b;
 console.log(a);
+//Bitwise Assignment operators//
 //Bitwise AND assignment operator//
 a = 2;
 a &= b;
@@ -136,8 +155,11 @@ for (i=0;i<mat4.length; i++){
         mat5[i][j] = mat4[j][i];
     }
 }
-console.log(mat4);
+console.log('mat4',mat4);
 console.log('Transmat',mat5);
+
+let arr1 = [1,2,3,4,5];
+console.log(arr1);
 
 //[Prototype] : Array(0) =>
     //  [Prototype] : Object => 
