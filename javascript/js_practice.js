@@ -167,3 +167,6 @@ console.log(arr1);
     //          Prototype : Object =>
     //              __proto__ = Object => 
     //                 __proto__ = null
+
+//The inner function can use the arguments and variables of the outer function,// 
+//while the outer function cannot use the arguments and variables of the inner function.//
