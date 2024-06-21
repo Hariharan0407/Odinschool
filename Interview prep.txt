@@ -1,0 +1,26 @@
+Frequently asked topics in interview
+
+1. what are the different input types?
+2. Difference between <img> <picture> <figure>
+3. order of pseudo  selectors?
+4. Rem and Em units?
+5. Initialization vs declaration vs assignment of variables
+6. Explain bitwise operators
+7. Short circuiting
+8. Different ways to create an object?
+9. Type conversion, type coercion
+10. Statement vs expression
+11. Prototypes
+12. Array methods, callback functions
+13. Arrow function and this keyword
+14. Various scopes
+15. what is this keyword, context, closure?
+16. Bubbling, delegation, capturing in events
+17. Event loop, setTimeout, multiple setTimeput execution
+18. polyfields
+19. Virtual DOM
+20. Propsdealing
+21. Lifting state in React and Redux
+22. Controlled components, uncontrolled components
+
+
